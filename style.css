@@ -1,5 +1,5 @@
 body {
-	background-color: grey
+	background-color: grey;
 
 }
 
@@ -12,9 +12,11 @@ h2 {
 	font-size: 2em;
 }
 ul {font-size: xx-large;}
-ol {font-size: xx-large;
-color: red}
-input {border-radius: 30%}
+ol {
+	font-size: xx-large;
+	color: red;
+}
+input {border-radius: 30%;}
 
 
 .poeder {
@@ -26,4 +28,10 @@ input {border-radius: 30%}
 	border: none;
 	border-radius: 50px;
 }
-.story {border-color: solid green}
+
+textarea {
+	border: 2px solid lime;
+}
+textarea:focus {
+	border: 2px solid red;
+}
